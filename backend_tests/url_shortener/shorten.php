@@ -25,7 +25,7 @@
 	if($row = $result->fetch_assoc()){
 		$obj = new stdClass();
 		$obj->original_link = $url;
-		$obj->short_link = $shortUrl;
+		$obj->short_link = "http://localhost/$shortUrl";
 		
 		header("200 OK", true, 200);
 		die(json_encode($obj));
@@ -69,7 +69,7 @@
 	//creating object of standard Class and adding attributes to it
 	$obj = new stdClass();
 	$obj->original_link = $url;
-	$obj->short_link = $shortUrl;
+	$obj->short_link = "http://localhost/$shortUrl";
 	
 	header("200 OK", true, 200);
 	die(json_encode($obj));

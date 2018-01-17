@@ -28,7 +28,7 @@ $(document).on("click","#getShortUrlBtn",function(){
 			//return;
 			$("#yourUrlDiv").fadeOut(500, function(){
 				var str ="Your link: "+object.original_link+
-							"<br/><br/>Shorten link: <input readonly id='shortUrl' value='localhost/"+object.short_link+"'> </input> <br/><br/>";
+							"<br/><br/>Shorten link: <input readonly id='shortUrl' value='"+object.short_link+"'> </input> <br/><br/>";
 				str+= "<button  onclick='clickToCopy()' >Click to Copy link </button><br/><br/>";
 				str+= "<button  onclick='makeNewShortUrl()' >Make New Short Url</button><br/><br/>";
 				$('#shortUrlDiv').html(str).fadeIn(500);
