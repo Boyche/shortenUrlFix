@@ -9,3 +9,4 @@ Da bi aplikacija funkcionisala na vašem web serveru, potrebno je:
 -	Zahtevom serveru sa posaltim kratim url-om dobijamo redirekciju na pravi url koji se nalazi u bazi.
 -	Ukoliko imate bilo kakva pitanja, molim Vas da ih postavite, bice mi drago da odgovorim na njih.
 Bojan Milic
+# shortenUrlFix
