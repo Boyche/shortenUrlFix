@@ -10,3 +10,4 @@ Da bi aplikacija funkcionisala na vašem web serveru, potrebno je:
 -	Ukoliko imate bilo kakva pitanja, molim Vas da ih postavite, bice mi drago da odgovorim na njih.
 Bojan Milic
 # shortenUrlFix
+# shortenUrlFix
